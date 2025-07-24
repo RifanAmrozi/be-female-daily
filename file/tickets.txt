@@ -1,0 +1,32 @@
+[
+  {
+    "id": "TCK-001",
+    "name": "Gold Jakarta x Beauty Fest 2025",
+    "status": "Belum ditukar",
+    "expired_at": "2025-08-15T23:59:59Z"
+  },
+  {
+    "id": "TCK-002",
+    "name": "Gold Jakarta x Beauty Fest 2025",
+    "status": "Belum ditukar",
+    "expired_at": "2025-07-01T23:59:59Z"
+  },
+  {
+    "id": "TCK-003",
+    "name": "Platinum Jakarta x Beauty Fest 2025",
+    "status": "Belum ditukar",
+    "expired_at": "2025-06-20T23:59:59Z"
+  },
+  {
+    "id": "TCK-004",
+    "name": "Silver Jakarta x Beauty Fest 2025",
+    "status": "Belum ditukar",
+    "expired_at": "2025-08-30T23:59:59Z"
+  },
+  {
+    "id": "TCK-005",
+    "name": "Silver Jakarta x Beauty Fest 2025",
+    "status": "Sudah ditukar",
+    "expired_at": "2025-07-20T23:59:59Z"
+  }
+]

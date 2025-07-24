@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Try Wardah Cleanser",
+    "description": "Use the Wardah facial cleanser and share a selfie with your clean skin.",
+    "points": 50,
+    "status": "Pending",
+    "brand": {
+      "id": 1,
+      "name": "Wardah"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Review Emina Lip Balm",
+    "description": "Post a short video reviewing the Emina fruity lip balm on social media.",
+    "points": 40,
+    "status": "Completed",
+    "brand": {
+      "id": 2,
+      "name": "Emina"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Kahf Beard Oil Challenge",
+    "description": "Try Kahf’s beard oil for a week and document the transformation.",
+    "points": 60,
+    "status": "Pending",
+    "brand": {
+      "id": 3,
+      "name": "Kahf"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Make Over Bold Look",
+    "description": "Create a bold makeup look using Make Over products and tag us.",
+    "points": 70,
+    "status": "Completed",
+    "brand": {
+      "id": 4,
+      "name": "Make Over"
+    }
+  },
+  {
+    "id": 5,
+    "name": "OMG Product Hunt",
+    "description": "Find and buy any OMG product from a local store and share a photo.",
+    "points": 30,
+    "status": "Pending",
+    "brand": {
+      "id": 5,
+      "name": "OMG"
+    }
+  },
+  {
+    "id": 6,
+    "name": "LABORE Skin Diary",
+    "description": "Use LABORE cream for 5 days and submit a daily progress log.",
+    "points": 80,
+    "status": "Completed",
+    "brand": {
+      "id": 6,
+      "name": "LABORE"
+    }
+  },
+  {
+    "id": 7,
+    "name": "BIODEF Quiz Master",
+    "description": "Take a short quiz about BIODEF's new ingredients and win rewards.",
+    "points": 25,
+    "status": "Pending",
+    "brand": {
+      "id": 7,
+      "name": "BIODEF"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Tavi Natural Routine",
+    "description": "Build a skincare routine using only Tavi products for one week.",
+    "points": 65,
+    "status": "Pending",
+    "brand": {
+      "id": 8,
+      "name": "Tavi"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Earth Love Challenge",
+    "description": "Recycle Earth Love Life packaging and share your green habit.",
+    "points": 100,
+    "status": "Completed",
+    "brand": {
+      "id": 9,
+      "name": "Earth Love Life"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Wonderly Color Pop",
+    "description": "Use Wonderly’s vibrant palette to create a colorful look.",
+    "points": 55,
+    "status": "Pending",
+    "brand": {
+      "id": 10,
+      "name": "Wonderly"
+    }
+  }
+]

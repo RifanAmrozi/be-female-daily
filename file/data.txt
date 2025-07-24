@@ -1,0 +1,336 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "Wardah",
+      "crowd_count": 5,
+      "increase_count": 0,
+      "description": "A halal-certified beauty brand known for vast skincare products.",
+      "category": "skincare",
+      "hall": "A"
+    },
+    {
+      "id": 2,
+      "name": "Emina",
+      "crowd_count": 16,
+      "increase_count": 1,
+      "description": "A halal-certified beauty brand known for feminim skincare products.",
+      "category": "skincare",
+      "hall": "A"
+    },
+    {
+      "id": 3,
+      "name": "Kahf",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Personal care solutions tailored for the modern Muslim man.",
+      "category": "men's grooming",
+      "hall": "C"
+    },
+    {
+      "id": 4,
+      "name": "Make Over",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Professional-grade makeup brand for bold beauty enthusiasts.",
+      "category": "makeup",
+      "hall": "A"
+    },
+    {
+      "id": 5,
+      "name": "OMG",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Trendy and affordable makeup brand for everyday glam.",
+      "category": "makeup",
+      "hall": "B"
+    },
+    {
+      "id": 6,
+      "name": "LABORE",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Dermatologically tested skincare for sensitive skin.",
+      "category": "skincare",
+      "hall": "B"
+    },
+    {
+      "id": 7,
+      "name": "BIODEF",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Biotechnology-driven solutions for skin defense and repair.",
+      "category": "skincare",
+      "hall": "B"
+    },
+    {
+      "id": 8,
+      "name": "Tavi",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Natural and organic personal care brand inspired by tradition.",
+      "category": "natural care",
+      "hall": "C"
+    },
+    {
+      "id": 9,
+      "name": "Earth Love Life",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Eco-conscious beauty brand promoting sustainable living.",
+      "category": "eco-friendly",
+      "hall": "C"
+    },
+    {
+      "id": 10,
+      "name": "Wonderly",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Playful and imaginative makeup for bold self-expression.",
+      "category": "makeup",
+      "hall": "B"
+    },
+    {
+      "id": 11,
+      "name": "Putri Hair Choice",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Affordable haircare range for everyday confidence.",
+      "category": "haircare",
+      "hall": "C"
+    },
+    {
+      "id": 12,
+      "name": "CRYSTALLURE",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "Premium anti-aging skincare enriched with gold peptides.",
+      "category": "luxury skincare",
+      "hall": "A"
+    },
+    {
+      "id": 13,
+      "name": "Instaperfect",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "High-performance minimalist makeup for women on the go.",
+      "category": "makeup",
+      "hall": "A"
+    },
+    {
+      "id": 100,
+      "name": "Maybelline",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "",
+      "category": "makeup",
+      "hall": "A"
+    },
+    {
+      "id": 101,
+      "name": "Somethinc",
+      "crowd_count": 0,
+      "increase_count": 0,
+      "description": "",
+      "category": "skincare",
+      "hall": "A"
+    }
+  ],
+  "missions": [
+    {
+      "id": 1,
+      "name": "Try Wardah Cleanser",
+      "description": "Use the Wardah facial cleanser and share story a selfie with your clean skin.",
+      "point": 50,
+      "status": "Pending",
+      "brand": {
+        "id": 1,
+        "name": "Wardah",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": 2,
+      "name": "Review Emina Lip Balm",
+      "description": "Post a short video reviewing the Emina fruity lip balm on social media.",
+      "point": 40,
+      "status": "Pending",
+      "brand": {
+        "id": 2,
+        "name": "Emina",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": 3,
+      "name": "Kahf Beard Oil Challenge",
+      "description": "Try Kahf’s beard oil for a week and document the transformation.",
+      "point": 60,
+      "status": "Pending",
+      "brand": {
+        "id": 3,
+        "name": "Kahf",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": 4,
+      "name": "Make Over Bold Look",
+      "description": "Create a bold makeup look using Make Over products and tag us.",
+      "point": 70,
+      "status": "Pending",
+      "brand": {
+        "id": 4,
+        "name": "Make Over",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": 5,
+      "name": "OMG Product Hunt",
+      "description": "Find and buy any OMG product from a local store and share a photo.",
+      "point": 30,
+      "status": "Pending",
+      "brand": {
+        "id": 5,
+        "name": "OMG",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": 6,
+      "name": "LABORE Skin Diary",
+      "description": "Use LABORE cream for 5 days and submit a daily progress log.",
+      "point": 80,
+      "status": "Completed",
+      "brand": {
+        "id": 6,
+        "name": "LABORE",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": 7,
+      "name": "BIODEF Quiz Master",
+      "description": "Take a short quiz about BIODEF's new ingredients and win rewards.",
+      "point": 25,
+      "status": "Pending",
+      "brand": {
+        "id": 7,
+        "name": "BIODEF",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": 8,
+      "name": "Tavi Natural Routine",
+      "description": "Build a skincare routine using only Tavi products for one week.",
+      "point": 65,
+      "status": "Pending",
+      "brand": {
+        "id": 8,
+        "name": "Tavi",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": 9,
+      "name": "Earth Love Challenge",
+      "description": "Recycle Earth Love Life packaging and share your green habit.",
+      "point": 100,
+      "status": "Completed",
+      "brand": {
+        "id": 9,
+        "name": "Earth Love Life",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    },
+    {
+      "id": 10,
+      "name": "Wonderly Color Pop",
+      "description": "Use Wonderly’s vibrant palette to create a colorful look.",
+      "point": 55,
+      "status": "Pending",
+      "brand": {
+        "id": 10,
+        "name": "Wonderly",
+        "crowd_count": 0,
+        "increase_count": 0,
+        "description": ""
+      }
+    }
+  ],
+  "tickets": [
+    {
+      "id": "A1BJXB281",
+      "name": "Gold Jakarta x Beauty Fest 2025",
+      "status": "Sudah ditukar",
+      "expired_at": "2025-07-27T23:59:59Z"
+    },
+    {
+      "id": "A1BJXB282",
+      "name": "Gold Jakarta x Beauty Fest 2025",
+      "status": "Belum ditukar",
+      "expired_at": "2025-07-28T23:59:59Z"
+    },
+    {
+      "id": "A1BJXB283",
+      "name": "Platinum Jakarta x Beauty Fest 2025",
+      "status": "Belum ditukar",
+      "expired_at": "2025-07-29T23:59:59Z"
+    },
+    {
+      "id": "A1BJXB284",
+      "name": "Silver Jakarta x Beauty Fest 2025",
+      "status": "Belum ditukar",
+      "expired_at": "2025-07-30T23:59:59Z"
+    },
+    {
+      "id": "A1BJXB285",
+      "name": "Silver Jakarta x Beauty Fest 2025",
+      "status": "Belum ditukar",
+      "expired_at": "2025-07-31T23:59:59Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "password1",
+      "point": 200
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "user2@example.com",
+      "password": "password2",
+      "point": 200
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "email": "user3@example.com",
+      "password": "password3",
+      "point": 300
+    }
+  ]
+}

@@ -8,3 +8,4 @@ var Users = []model.User{
 	{ID: 3, Username: "user3", Email: "user3@example.com", Password: "password3", Point: 300},
 	// Add more users as needed
 }
+var Tickets = []model.Ticket{}
