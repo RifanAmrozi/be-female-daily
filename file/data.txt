@@ -3,8 +3,8 @@
     {
       "id": 1,
       "name": "Wardah",
-      "crowd_count": 5,
-      "increase_count": 0,
+      "crowd_count": 7,
+      "increase_count": 2,
       "description": "A halal-certified beauty brand known for vast skincare products.",
       "category": "skincare",
       "hall": "A"
@@ -12,8 +12,8 @@
     {
       "id": 2,
       "name": "Emina",
-      "crowd_count": 16,
-      "increase_count": 1,
+      "crowd_count": 17,
+      "increase_count": 2,
       "description": "A halal-certified beauty brand known for feminim skincare products.",
       "category": "skincare",
       "hall": "A"
@@ -21,8 +21,8 @@
     {
       "id": 3,
       "name": "Kahf",
-      "crowd_count": 0,
-      "increase_count": 0,
+      "crowd_count": 1,
+      "increase_count": 1,
       "description": "Personal care solutions tailored for the modern Muslim man.",
       "category": "men's grooming",
       "hall": "C"
@@ -316,7 +316,12 @@
       "username": "user1",
       "email": "user1@example.com",
       "password": "password1",
-      "point": 200
+      "point": 630,
+      "personalization": [
+        "Wardah",
+        "Emina",
+        "Kahf"
+      ]
     },
     {
       "id": 2,

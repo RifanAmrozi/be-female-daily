@@ -11,6 +11,7 @@ func RegisterRoutes(r *gin.Engine, brandCtrl *controller.BrandController, missio
 	{
 		api.POST("/user/login", controller.LoginUser)
 		api.GET("/user/:id", qrCtrl.DetailUser)
+		api.POST("/user/:id", qrCtrl.UpdateUser)
 		api.GET("/reset/increase-count", qrCtrl.ResetIncreaseCount)
 
 		api.GET("/brand", brandCtrl.GetBrands)

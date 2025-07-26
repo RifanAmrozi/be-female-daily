@@ -11,6 +11,7 @@ import (
 
 type BrandController struct {
 	Store storage.Storage
+	// Producer *event.Producer
 }
 
 func NewBrandController(store storage.Storage) *BrandController {
@@ -32,6 +33,15 @@ func (bc *BrandController) DetailBrand(c *gin.Context) {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "invalid brand id"})
 		return
 	}
+
+	// TODO: replace message queue for saving brand so that it will not race condition
+	// eventPayload := map[string]interface{}{
+	// 	"type": "brand_view",
+	// 	"brand_id": id,
+	// }
+	// payloadBytes, _ := json.Marshal(eventPayload)
+	// _ = bc.Producer.Send(string(payloadBytes))
+
 	allData, err := bc.Store.GetAllData()
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to retrieve brands"})

@@ -27,7 +27,9 @@ func GenerateQR(c *gin.Context) {
 		return
 	}
 
-	png, err := qrcode.Encode("http://10.60.59.97:8080/api/v1/qr/ticket/"+req.Data, qrcode.Medium, 256)
+	png, err := qrcode.Encode(
+		// "http://10.60.59.97:8080/api/v1/qr/ticket/"+
+		req.Data, qrcode.Medium, 256)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to generate QR"})
 		return
@@ -130,6 +132,31 @@ func (qc *QRController) DetailUser(c *gin.Context) {
 	c.JSON(http.StatusNotFound, gin.H{"error": "user not found"})
 }
 
+func (qc *QRController) UpdateUser(c *gin.Context) {
+	getAllData, err := qc.Store.GetAllData()
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to get data"})
+		return
+	}
+	var user model.User
+	if err := c.ShouldBindJSON(&user); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		return
+	}
+	for i, u := range getAllData.Users {
+		if u.ID == user.ID {
+			getAllData.Users[i] = user // Update the user
+			if err := qc.Store.SaveAllData(getAllData); err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to update user"})
+				return
+			}
+			c.JSON(http.StatusOK, user)
+			return
+		}
+	}
+
+	c.JSON(http.StatusOK, user)
+}
 func (qc *QRController) ResetIncreaseCount(c *gin.Context) {
 	getAllData, err := qc.Store.GetAllData()
 	if err != nil {
